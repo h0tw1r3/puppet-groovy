@@ -1,0 +1,24 @@
+{
+    "name": "rtyler-groovy",
+    "author": "R. Tyler Croy",
+    "version": "1.0.3",
+    "source": "https://github.com/h0tw1r3/puppet-groovy",
+    "license": "Apache License, Version 2.0",
+    "summary": "Puppet module for installing Groovy from the official distribution.",
+    "dependencies": [
+        {
+            "name": "puppetlabs/stdlib",
+            "version_requirement": ">= 3.0.0"
+        },
+        {
+            "name": "nanli/staging",
+            "version_requirement": ">= 0.4.0"
+        }
+    ],
+    "requirements": [
+        {
+            "name": "puppet",
+            "version_requirement": "2.7.0"
+        }
+    ]
+}
